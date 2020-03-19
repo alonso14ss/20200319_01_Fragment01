@@ -22,6 +22,7 @@
                 android:layout_weight="1"
                 android:text="첫 프래그먼트"/>
 
+
             <Button
                 android:id="@+id/secondFrageCallBtn"
                 android:layout_width="0dp"
@@ -29,13 +30,39 @@
                 android:layout_weight="1"
                 android:text="두번째 프래그먼트"/>
 
+
         </LinearLayout>
 
-        <fragment
-            android:id="@+id/firstFrag"
+        <LinearLayout
+            android:id="@+id/firstFragLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            class="co.kr.tjoeun.helloworld.a20200319_01_fragment01.fragments.FirstFragment"/>
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/firstFrag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                class="co.kr.tjoeun.helloworld.a20200319_01_fragment01.fragments.FirstFragment"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secondFragLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/secondFrag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                class="co.kr.tjoeun.helloworld.a20200319_01_fragment01.fragments.SecondFragment"/>
+
+
+        </LinearLayout>
+
+
 
     </LinearLayout>
 
