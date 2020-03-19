@@ -13,6 +13,6 @@
         android:layout_height="wrap_content"
         android:textSize="40sp"
         android:text="두번째 프레그먼트"
-        android:textColor="#ffffff"
+        android:textColor="#ffffff"/>
 
 </LinearLayout>
