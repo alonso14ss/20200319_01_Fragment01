@@ -1,42 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="10dp">
+<layout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="이름"/>
-
-    <EditText
-        android:id="@+id/nameEdt"
-        android:layout_marginTop="5dp"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:singleLine="true"
-        android:hint="이름 입력"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="전화번호"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이름"/>
 
-    <EditText
-        android:id="@+id/phoneEdt"
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="phone"
-        android:hint="폰번입력"/>
+        <EditText
+            android:id="@+id/nameEdt"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="이름 입력"/>
 
-    <Button
-        android:id="@+id/infoToastBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="정보 토스트 출력"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="전화번호"/>
+
+        <EditText
+            android:id="@+id/phoneEdt"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="폰번입력"/>
+
+        <Button
+            android:id="@+id/infoToastBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="정보 토스트 출력"/>
 
 
-</LinearLayout>
+    </LinearLayout>
+
+</layout>
